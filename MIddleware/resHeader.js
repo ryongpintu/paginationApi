@@ -3,7 +3,7 @@
 module.exports=function (req, res, next) {
 
   // Website you wish to allow to connect
-  res.setHeader('Access-Control-Allow-Origin', 'https://paginationappdemo.herokuapp.com');
+  res.setHeader('Access-Control-Allow-Origin', 'https://ryongpintu.github.io/paginationDemo');
 
   // Request methods you wish to allow
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
