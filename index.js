@@ -28,6 +28,12 @@ app.get('/data',(req,res)=>{
     .catch((err)=>console.log(err))
 });
 
+app.get('/',(req,res)=>{
+ 
+  res.send('Hello This is Pagination API  Use This Link to check https://ryongpintu.github.io/paginationDemo/');
+    
+  });
+
 app.get('/all',(req,res)=>{
   Data.find()
   .count()
